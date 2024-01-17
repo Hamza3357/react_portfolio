@@ -1,0 +1,23 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/1/youtube.JPG",
+            "title": "Youtube V2.0",
+            "description": "ReactJs, Material UI, JavaScript",
+            "url": "https://youtubeclonev30.netlify.app/"
+        },
+        {
+            "cover": "/portfolio/1/business.JPG",
+            "title": "Business website",
+            "description": "ReactJs, Tailwind Css, JavaScript",
+            "url": "https://responsive-business-website-reactjs.netlify.app/"
+        },
+        {
+            "cover": "/portfolio/1/afforai.JPG",
+            "title": "AfforAI Clone",
+            "description": "ReactJs, Tailwind Css, JavaScript",
+            "url": "https://affordaiclone.netlify.app/"
+        }
+
+    ]
+}
