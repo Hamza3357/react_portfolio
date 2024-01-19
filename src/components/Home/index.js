@@ -29,7 +29,14 @@ const Home = () => {
                    <span className={`${letterClass} _13`}>I</span> 
                    <span className={`${letterClass} _14`}>'m</span> 
                    <span className={`${letterClass} _14`}> </span> 
-                   <span className={`${letterClass} _14`}>M.</span> 
+                   <span className={`${letterClass} _14`}>M</span> 
+                   <span className={`${letterClass} _14`}>u</span> 
+                   <span className={`${letterClass} _14`}>h</span> 
+                   <span className={`${letterClass} _14`}>a</span> 
+                   <span className={`${letterClass} _14`}>m</span> 
+                   <span className={`${letterClass} _14`}>m</span> 
+                   <span className={`${letterClass} _14`}>a</span> 
+                   <span className={`${letterClass} _14`}>d</span> 
                 <img src={LogoTitle} alt="Developer" />
                 <AnimatedLetters letterClass={letterClass}
                 strArray={nameArray}
