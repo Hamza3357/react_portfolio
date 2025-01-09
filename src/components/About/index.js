@@ -29,7 +29,7 @@ const About = () => {
                 </h1>
                 <p>
 
-                Welcome to my professional journey! I'm an ambitious Software Engineer and ReactJS Front-end Developer seeking opportunities with established IT companies. With a passion for the latest technologies, I thrive on tackling diverse and challenging projects. Let's connect and create something extraordinary together!                </p>
+                Welcome to my professional journey! I'm an ambitious Software Engineer and Mern Stack Developer seeking opportunities with established IT companies. With a passion for the latest technologies, I thrive on tackling diverse and challenging projects. Let's connect and create something extraordinary together!                </p>
                 <p>
                     I'm quitely confident, naturally curious, and perpetually working on improving my chops one design problem at a time
                 </p>

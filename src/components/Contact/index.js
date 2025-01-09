@@ -6,6 +6,7 @@ import emailjs from '@emailjs/browser'
 import { MapContainer, Marker, Popup, TileLayer, ZoomControl } from 'react-leaflet';
 
 const Contact = () => {
+    const position = [33.6747, 72.9509]
     const [letterClass, setLetterClass] = useState('text-animate')
     const refForm = useRef()
 
@@ -79,22 +80,22 @@ const Contact = () => {
             <br />
             +92313-1553357
             <br />
-            Abbottabad, Pakistan
+            Islamabad, Pakistan
             <br />
             <span>hamzasabir3357@gmailcom</span>
         </div>
         <div className="map-wrap">
-        <MapContainer center={[34.200245, 73.246694]} zoom={13} scrollWheelZoom={false}>
-    <TileLayer
-      attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-      url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-    />
-    <Marker position={[34.200245, 73.246694]}>
-      <Popup>
-        Hamza lives here, come over for a cup of tea
-      </Popup>
-    </Marker>
-  </MapContainer>
+        <MapContainer center={position} zoom={13} style={{ height: "100vh", width: "100%" }}>
+            <TileLayer
+                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            <Marker position={position}>
+                <Popup>
+                    Hamza lives here, come over for a cup of tea
+                </Popup>
+            </Marker>
+        </MapContainer>
 </div>
 
     </div>
